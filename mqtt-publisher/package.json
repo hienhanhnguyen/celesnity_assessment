@@ -1,0 +1,6 @@
+{
+  "name": "@celesnity/mqtt-publisher",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Optional washing/drying telemetry publisher."
+}

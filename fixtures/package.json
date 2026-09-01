@@ -1,0 +1,6 @@
+{
+  "name": "@celesnity/fixtures",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Internal application API (JSON, paginated) + supplier crawler pages (HTML)."
+}
