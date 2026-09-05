@@ -1,0 +1,67 @@
+[
+  {
+    "recordId": "DLV-0001",
+    "batchId": "BATCH-0001",
+    "lineId": "LINE-A",
+    "quantity": 100,
+    "minutesAgo": 90,
+    "supplier": "LinenCo"
+  },
+  {
+    "recordId": "DLV-0002",
+    "batchId": "BATCH-0002",
+    "lineId": "LINE-A",
+    "quantity": 60,
+    "minutesAgo": 80,
+    "supplier": "LinenCo"
+  },
+  {
+    "recordId": "DLV-0003",
+    "batchId": "BATCH-0003",
+    "lineId": "LINE-A",
+    "quantity": 80,
+    "minutesAgo": 70,
+    "supplier": "TextileHub"
+  },
+  {
+    "recordId": "DLV-0004",
+    "batchId": "BATCH-0004",
+    "lineId": "LINE-A",
+    "quantity": 70,
+    "minutesAgo": 60,
+    "supplier": "TextileHub"
+  },
+  {
+    "recordId": "DLV-0099",
+    "batchId": null,
+    "lineId": "LINE-A",
+    "quantity": null,
+    "minutesAgo": 60,
+    "supplier": "TextileHub",
+    "malformed": true
+  },
+  {
+    "recordId": "DLV-0005",
+    "batchId": "BATCH-0005",
+    "lineId": "LINE-B",
+    "quantity": 50,
+    "minutesAgo": 120,
+    "supplier": "LinenCo"
+  },
+  {
+    "recordId": "DLV-0006",
+    "batchId": "BATCH-0006",
+    "lineId": "LINE-B",
+    "quantity": 90,
+    "minutesAgo": 95,
+    "supplier": "SupplyLine"
+  },
+  {
+    "recordId": "DLV-0007",
+    "batchId": "BATCH-0007",
+    "lineId": "LINE-B",
+    "quantity": 40,
+    "minutesAgo": 50,
+    "supplier": "SupplyLine"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "workOrderId": "WO-1001",
+    "lineId": "LINE-A",
+    "status": "IN_PROGRESS",
+    "customer": "Grand Hotel"
+  },
+  {
+    "workOrderId": "WO-1002",
+    "lineId": "LINE-A",
+    "status": "IN_PROGRESS",
+    "customer": "City Clinic"
+  },
+  {
+    "workOrderId": "WO-1003",
+    "lineId": "LINE-B",
+    "status": "IN_PROGRESS",
+    "customer": "Seaside Resort"
+  },
+  {
+    "workOrderId": "WO-1004",
+    "lineId": "LINE-B",
+    "status": "IN_PROGRESS",
+    "customer": "Riverside Spa"
+  },
+  { "workOrderId": "WO-1005", "lineId": "LINE-A", "status": "PLANNED", "customer": "Grand Hotel" }
+]
