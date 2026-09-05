@@ -22,13 +22,6 @@ export interface HttpConfig {
   corsOrigins: string | string[];
 }
 
-export interface MqttConfig {
-  enabled: boolean;
-  url: string;
-  washingTopic: string;
-  dryingTopic: string;
-}
-
 export interface AppConfig {
   port: number;
   database: DatabaseConfig;
@@ -36,7 +29,6 @@ export interface AppConfig {
   domain: DomainConfig;
   sources: SourcesConfig;
   http: HttpConfig;
-  mqtt: MqttConfig;
 }
 
 const int = (value: string | undefined, fallback: number): number => {
@@ -72,11 +64,5 @@ export default (): AppConfig => ({
   },
   http: {
     corsOrigins: corsOrigins(process.env.CORS_ORIGIN),
-  },
-  mqtt: {
-    enabled: (process.env.MQTT_ENABLED ?? '').trim().toLowerCase() === 'true',
-    url: process.env.MQTT_URL ?? 'mqtt://localhost:1883',
-    washingTopic: process.env.MQTT_WASHING_TOPIC ?? 'factory/washing/#',
-    dryingTopic: process.env.MQTT_DRYING_TOPIC ?? 'factory/drying/#',
   },
 });

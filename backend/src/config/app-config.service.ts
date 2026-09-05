@@ -5,7 +5,6 @@ import type {
   DatabaseConfig,
   DomainConfig,
   HttpConfig,
-  MqttConfig,
   SecretsConfig,
   SourcesConfig,
 } from './configuration';
@@ -37,9 +36,5 @@ export class AppConfigService {
 
   get http(): HttpConfig {
     return this.config.get('http', { infer: true });
-  }
-
-  get mqtt(): MqttConfig {
-    return this.config.get('mqtt', { infer: true });
   }
 }
